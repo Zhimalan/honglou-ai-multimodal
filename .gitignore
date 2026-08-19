@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model weights (HuggingFace cache, large files, re-download from HF Hub)
+models/
+
+# Training outputs
+lora_train/LLaMA-Factory/checkpoints/
+lora_train/LLaMA-Factory/saves/
+lora_train/outputs/
+wandb/
+
+# ChromaDB
+rag_pipeline/chroma_db/
+chroma_db/
+
+# ComfyUI outputs
+visualize/comfyui_api/output/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+training_logs/
+
+# External cloned repos (can be re-downloaded, not project code)
+data/raw_text/HongLouMeng/
+data/raw_text/hongloumeng-poetry/
+data/kg_triple/Dream-of-the-Red-Chamber/
+data/kg_triple/HongLouMeng-KnowledgeGraph/
+lora_train/LLaMA-Factory/
+
+# Temporary download script
+download_sft.py

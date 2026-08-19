@@ -1,0 +1,37 @@
+[
+  {
+    "query": "林黛玉初进贾府时见到了哪些人？",
+    "sources": "第3回、第25回",
+    "elapsed_time": 10.740540027618408,
+    "hyde_used": true,
+    "num_docs": 3
+  },
+  {
+    "query": "贾宝玉梦游太虚幻境看到了什么判词？",
+    "sources": "第5回、第117回",
+    "elapsed_time": 3.9285976886749268,
+    "hyde_used": true,
+    "num_docs": 3
+  },
+  {
+    "query": "王熙凤是怎么协理宁国府的？",
+    "sources": "第3回、第54回、第101回",
+    "elapsed_time": 3.908339262008667,
+    "hyde_used": true,
+    "num_docs": 3
+  },
+  {
+    "query": "刘姥姥进大观园发生了什么有趣的事？",
+    "sources": "第39回、第40回",
+    "elapsed_time": 5.232874631881714,
+    "hyde_used": true,
+    "num_docs": 3
+  },
+  {
+    "query": "晴雯撕扇是在什么情况下发生的？",
+    "sources": "第31回、第64回",
+    "elapsed_time": 4.033320665359497,
+    "hyde_used": true,
+    "num_docs": 3
+  }
+]

@@ -1,0 +1,45 @@
+# ============================================================
+# Qwen2.5-7B Base QLoRA 红楼梦领域微调配置
+# 用法（在装有 A10 24GB 的云实例上）：
+#     llamafactory-cli train lora_train/qwen_honglou_lora.yaml
+#
+# 部署到云 GPU 时，请把以下三处 Windows 路径改为云实例的 Linux 绝对路径：
+#   model_name_or_path / dataset_dir / output_dir
+# ============================================================
+
+### 模型
+model_name_or_path: D:/honglou_ai_multimodal/models/Qwen2.5-7B   # 云上改为实际路径
+quantization_bit: 4            # QLoRA 4bit 量化
+quantization_type: nf4
+double_quantization: true
+
+### 方法
+finetuning_type: lora
+lora_rank: 16                  # 作业文档给定
+lora_alpha: 32
+lora_target: q_proj,v_proj
+lora_dropout: 0.05
+
+### 数据集
+dataset_dir: D:/honglou_ai_multimodal/lora_train/data
+dataset: honglou_qa_train
+cutoff_len: 2048
+preprocessing_num_workers: 8
+
+### 训练超参（作业文档给定基准）
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 8
+learning_rate: 5e-5
+num_train_epochs: 3           # 切记 <=4，防灾难性遗忘
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true                     # A10(Ampere) 支持 bf16
+flash_attn: fa2
+
+### 输出与日志
+output_dir: D:/honglou_ai_multimodal/lora_train/output
+logging_steps: 10
+save_steps: 200
+save_total_limit: 2
+plot_loss: true                # 自动生成 training_loss.png（实验报告用）
+report_to: none

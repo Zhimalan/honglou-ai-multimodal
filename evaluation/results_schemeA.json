@@ -1,0 +1,1011 @@
+{
+  "1": {
+    "id": 1,
+    "category": "plot",
+    "question": "林黛玉是如何进入贾府的？",
+    "golden_chapters": [
+      3
+    ],
+    "reference": "林黛玉母亲贾敏去世后，贾母派人接她进京；第3回黛玉抛父进京都，由贾雨村护送进贾府，初见贾母、宝玉等人。",
+    "answer": "林黛玉是因母亲贾敏去世，父亲贾政要她进京守孝，便由外祖母贾母接进贾府的。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.61,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 3,
+      "no_hallucination": 5,
+      "completeness": 3,
+      "comment": "回答中提到林黛玉因母亲去世进京守孝，但未提及是由贾母接进贾府，且未提到贾雨村护送的情节。"
+    }
+  },
+  "2": {
+    "id": 2,
+    "category": "plot",
+    "question": "薛蟠为何打死冯渊？",
+    "golden_chapters": [
+      4
+    ],
+    "reference": "第4回，薛蟠为争夺甄英莲（香菱）打死冯渊；葫芦僧（门子）献护官符，贾雨村枉法判案，薛蟠逍遥法外。",
+    "answer": "《红楼梦》中并没有薛蟠打死冯渊这一情节。薛蟠打死冯渊并非《红楼梦》中的事件。您可能记错了情节或人物。在《红楼梦》中，薛蟠是贾珠之兄，因性格粗鲁、行为不检点而多次惹事。如果有其他关于《红楼梦》的问题，欢迎提问。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 2.07,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答完全偏离了问题，未提及薛蟠打死冯渊的情节。"
+    }
+  },
+  "3": {
+    "id": 3,
+    "category": "plot",
+    "question": "金陵十二钗的判词出现在哪一回？",
+    "golden_chapters": [
+      5
+    ],
+    "reference": "第5回，贾宝玉梦游太虚幻境，看到金陵十二钗正册判词及《红楼梦》十二支仙曲，预示众女子命运。",
+    "answer": "金陵十二钗的判词出现在《红楼梦》第5回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.81,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 5,
+      "comment": "回答准确、完整，直接点明了判词出现的回目，没有额外错误或偏离。"
+    }
+  },
+  "4": {
+    "id": 4,
+    "category": "plot",
+    "question": "刘姥姥第一次进荣国府是在哪一回？",
+    "golden_chapters": [
+      6
+    ],
+    "reference": "第6回，刘姥姥一进荣国府，通过周瑞家的见到王熙凤，得了二十两银子。",
+    "answer": "刘姥姥第一次进荣国府是在《红楼梦》第三十回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.82,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节与原著不符。"
+    }
+  },
+  "5": {
+    "id": 5,
+    "category": "plot",
+    "question": "宝玉与袭人初次发生云雨之情是在哪一回？",
+    "golden_chapters": [
+      6
+    ],
+    "reference": "第6回，宝玉梦游太虚幻境后，与袭人偷试云雨之情。",
+    "answer": "宝玉与袭人初次发生云雨之情是在《红楼梦》第二十四回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.87,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节与原著不符。"
+    }
+  },
+  "6": {
+    "id": 6,
+    "category": "plot",
+    "question": "王熙凤协理宁国府是为了操办谁的丧事？",
+    "golden_chapters": [
+      13
+    ],
+    "reference": "第13回，秦可卿（秦氏）死，贾珍请王熙凤协理宁国府操办丧事。",
+    "answer": "王熙凤协理宁国府是为了操办贾珍之父贾敬的丧事。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.94,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节和人物关系有误。"
+    }
+  },
+  "7": {
+    "id": 7,
+    "category": "plot",
+    "question": "王熙凤协理宁国府时采取了哪些管理措施？",
+    "golden_chapters": [
+      13,
+      14
+    ],
+    "reference": "第13-14回，凤姐立规矩、分派任务到人、严惩迟到者，整顿宁府散漫作风，展现理家才能。",
+    "answer": "王熙凤协理宁国府时采取了以下管理措施：\n\n1. 制定严格的上下班制度，要求迟到者罚一两银子。\n2. 对于迟到的仆人，立即开除。\n3. 亲自巡视各处，确保工作有序进行。\n4. 亲自审阅账目，纠正错误，确保账目清晰准确。\n5. 对于表现优秀的仆人给予奖励，对于表现不佳的仆人进行处罚。\n6. 以身作则，要求仆人们效仿她的勤勉和公正。\n\n这些措施有效地提高了宁国府的管理水平和工作效率。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 3.09,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 4,
+      "no_hallucination": 5,
+      "completeness": 4,
+      "comment": "回答基本准确，但对措施的描述过于详细，超出了参考答案要点。"
+    }
+  },
+  "8": {
+    "id": 8,
+    "category": "plot",
+    "question": "贾元春晋封贤德妃是在哪一回？",
+    "golden_chapters": [
+      16
+    ],
+    "reference": "第16回，贾元春才选凤藻宫，加封贤德妃，引出省亲大典。",
+    "answer": "贾元春晋封贤德妃是在《红楼梦》第十三回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.8,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节不在第十三回，且未提供正确回目。"
+    }
+  },
+  "9": {
+    "id": 9,
+    "category": "plot",
+    "question": "大观园试才题对额是在哪一回？",
+    "golden_chapters": [
+      17
+    ],
+    "reference": "第17回，贾政带宝玉及清客为大观园亭台题匾额对联，宝玉大展才情。",
+    "answer": "大观园试才题对额是在《红楼梦》第17回至第18回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.93,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 3,
+      "no_hallucination": 5,
+      "completeness": 3,
+      "comment": "回答将时间范围扩大至第17回至第18回，与原著不符，仅发生在第17回。"
+    }
+  },
+  "10": {
+    "id": 10,
+    "category": "plot",
+    "question": "元妃省亲发生在哪一回？",
+    "golden_chapters": [
+      18
+    ],
+    "reference": "第18回，元妃归省庆元宵，游大观园，题诗赐名，盛极一时。",
+    "answer": "元妃省亲发生在《红楼梦》第十八回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.76,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 3,
+      "comment": "回答准确指出了元妃省亲发生在第十八回，但未完整引用参考答案中的详细情节。"
+    }
+  },
+  "11": {
+    "id": 11,
+    "category": "plot",
+    "question": "黛玉葬花（埋香冢飞燕泣残红）是在哪一回？",
+    "golden_chapters": [
+      27
+    ],
+    "reference": "第27回，黛玉在埋香冢泣残红，吟《葬花吟》，感叹身世。",
+    "answer": "《红楼梦》第二十七回描写了黛玉葬花的情节。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.83,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 5,
+      "comment": "回答准确，贴切地回答了问题要点，没有编造情节。"
+    }
+  },
+  "12": {
+    "id": 12,
+    "category": "plot",
+    "question": "蒋玉菡赠茜香罗、宝钗羞笼红麝串是在哪一回？",
+    "golden_chapters": [
+      28
+    ],
+    "reference": "第28回，蒋玉菡赠宝玉茜香罗汗巾，宝玉转赠袭人；宝钗佩戴红麝串。",
+    "answer": "蒋玉菡赠茜香罗、宝钗羞笼红麝串的情节出现在《红楼梦》第二十五回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.07,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节不在第二十五回。"
+    }
+  },
+  "13": {
+    "id": 13,
+    "category": "plot",
+    "question": "金钏投井自杀的缘由是什么？",
+    "golden_chapters": [
+      32
+    ],
+    "reference": "第32回，金钏因与宝玉调情被王夫人撵逐，羞愤投井自尽。",
+    "answer": "金钏投井自杀是因为被误认为与宝玉有不正当关系。具体来说，是因王夫人怀疑金钏与宝玉有私情，虽无证据，但金钏受到冤枉，心情悲愤，最终不堪忍受羞辱而跳井自杀。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.65,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 4,
+      "no_hallucination": 5,
+      "completeness": 4,
+      "comment": "回答基本准确，但未完全按照参考答案要点来描述，缺少了‘被王夫人撵逐’这一关键情节。"
+    }
+  },
+  "14": {
+    "id": 14,
+    "category": "plot",
+    "question": "宝玉挨打（大承笞挞）的直接原因有哪些？",
+    "golden_chapters": [
+      33
+    ],
+    "reference": "第33回，贾政因金钏投井、忠顺王府索要蒋玉菡、贾环诬告宝玉逼淫母婢而怒打宝玉。",
+    "answer": "宝玉挨打的直接原因包括：\n\n1. 与小旦琪官交往，引起忠顺王府的注意。\n2. 贾环诬告宝玉逼死了金钏儿。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.28,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 4,
+      "no_hallucination": 5,
+      "completeness": 4,
+      "comment": "回答基本准确，但未完全覆盖所有直接原因。"
+    }
+  },
+  "15": {
+    "id": 15,
+    "category": "plot",
+    "question": "宝玉挨打后，袭人向王夫人进了什么言？",
+    "golden_chapters": [
+      34
+    ],
+    "reference": "第34回，袭人建议将宝玉搬出大观园以防不测，王夫人视其为心腹，日后多有倚重。",
+    "answer": "宝玉挨打后，袭人向王夫人进言，劝说王夫人怜惜宝玉，同时表达了自己愿意承担罪责，以保全宝玉的意思。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.19,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 3,
+      "no_hallucination": 5,
+      "completeness": 3,
+      "comment": "回答提到了袭人的建议，但未提及具体建议内容，且未提到将宝玉搬出大观园这一情节。"
+    }
+  },
+  "16": {
+    "id": 16,
+    "category": "plot",
+    "question": "海棠诗社是由谁倡议成立的？",
+    "golden_chapters": [
+      37
+    ],
+    "reference": "第37回，探春倡议成立海棠诗社，成员有黛玉、宝钗、宝玉、湘云等，以白海棠为题。",
+    "answer": "海棠诗社是由贾探春倡议成立的。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.72,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 5,
+      "comment": "回答准确、完整，符合参考答案要点"
+    }
+  },
+  "17": {
+    "id": 17,
+    "category": "plot",
+    "question": "菊花诗赛中谁夺魁？",
+    "golden_chapters": [
+      38
+    ],
+    "reference": "第38回，林黛玉以《咏菊》《问菊》《菊梦》三首夺魁。",
+    "answer": "菊花诗赛中，史湘云夺魁，贾宝玉和薛宝钗并列次席。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.95,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，林黛玉夺魁而非史湘云。"
+    }
+  },
+  "18": {
+    "id": 18,
+    "category": "plot",
+    "question": "刘姥姥二进大观园是在哪些回？",
+    "golden_chapters": [
+      39,
+      40
+    ],
+    "reference": "第39-40回，刘姥姥再进荣国府讲故事、游大观园、行酒令，逗贾母等开心。",
+    "answer": "刘姥姥二进大观园在《红楼梦》第四十回和第四十一回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.89,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 5,
+      "comment": "回答准确指出了刘姥姥二进大观园的具体回目，且没有编造情节。"
+    }
+  },
+  "19": {
+    "id": 19,
+    "category": "plot",
+    "question": "鸳鸯抗婚（誓绝鸳鸯偶）是在哪一回？",
+    "golden_chapters": [
+      46
+    ],
+    "reference": "第46回，贾赦欲纳鸳鸯为妾，鸳鸯在贾母前剪发明誓不从。",
+    "answer": "鸳鸯抗婚（誓绝鸳鸯偶）的情节在《红楼梦》第五十二回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.91,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节不在第五十二回。"
+    }
+  },
+  "20": {
+    "id": 20,
+    "category": "plot",
+    "question": "香菱学诗是在哪一回？",
+    "golden_chapters": [
+      48
+    ],
+    "reference": "第48回，香菱拜黛玉为师苦学作诗，苦吟终成佳作。",
+    "answer": "香菱学诗在《红楼梦》第四十八回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.78,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 4,
+      "comment": "回答准确指出了香菱学诗的具体回目，但未完全复述参考答案要点中的细节，如香菱拜黛玉为师苦学作诗，苦吟终成佳作。"
+    }
+  },
+  "21": {
+    "id": 21,
+    "category": "plot",
+    "question": "探春理家、兴利除弊是在哪一回？",
+    "golden_chapters": [
+      55,
+      56
+    ],
+    "reference": "第55-56回，探春代理家政，兴利除弊、承包园子，宝钗协助，体现改革才能。",
+    "answer": "探春理家、兴利除弊的情节出现在《红楼梦》第四十回至四十四回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.0,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 2,
+      "no_hallucination": 5,
+      "completeness": 2,
+      "comment": "回答错误，情节不在第四十回至四十四回，且未充分回答问题要点。"
+    }
+  },
+  "22": {
+    "id": 22,
+    "category": "plot",
+    "question": "抄检大观园的直接起因是什么？",
+    "golden_chapters": [
+      74
+    ],
+    "reference": "第74回，邢夫人拾得绣春囊交给王夫人，王夫人命王熙凤抄检大观园。",
+    "answer": "抄检大观园的直接起因是王夫人听信了王善保家的谗言，怀疑袭人、晴雯等大观园中的丫鬟偷窃了珍珠宝玉，玷污了贾府的名声。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.5,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 2,
+      "no_hallucination": 5,
+      "completeness": 2,
+      "comment": "回答偏离了问题核心，未准确指出抄检大观园的直接起因。"
+    }
+  },
+  "23": {
+    "id": 23,
+    "category": "plot",
+    "question": "晴雯被逐出并在哪一回死去？",
+    "golden_chapters": [
+      77
+    ],
+    "reference": "第77回，晴雯被王夫人以狐媚子罪名逐出大观园，含冤病而死。",
+    "answer": "晴雯被逐出大观园并在第七十四回中死去。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.79,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 2,
+      "no_hallucination": 5,
+      "completeness": 2,
+      "comment": "回答错误了晴雯被逐出和死去的具体回目。"
+    }
+  },
+  "24": {
+    "id": 24,
+    "category": "plot",
+    "question": "《芙蓉女儿诔》是宝玉哀悼谁而作的？",
+    "golden_chapters": [
+      78
+    ],
+    "reference": "第78回，宝玉为晴雯作《芙蓉女儿诔》，情真意切。",
+    "answer": "《芙蓉女儿诔》是宝玉哀悼晴雯而作。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.78,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 5,
+      "comment": "回答准确，直接点明了《芙蓉女儿诔》是宝玉为晴雯所作，没有偏离问题要点。"
+    }
+  },
+  "25": {
+    "id": 25,
+    "category": "plot",
+    "question": "黛玉焚稿断痴情是在哪一回？",
+    "golden_chapters": [
+      97
+    ],
+    "reference": "第97回，黛玉闻宝玉将娶宝钗，焚诗稿，病入膏肓。",
+    "answer": "黛玉焚稿断痴情发生在第五回。不过，正确的回目应为第五回，即黛玉在得知宝玉与宝钗即将成婚的消息后，悲痛欲绝，最终在凹晶馆联诗后，于晴雯死后，将自己生平所作诗稿一把火烧掉，以断绝自己的痴情。实际记载在第七十五回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 2.13,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节与原著不符。"
+    }
+  },
+  "26": {
+    "id": 26,
+    "category": "plot",
+    "question": "宝玉娶宝钗与黛玉之死分别出现在哪些回？",
+    "golden_chapters": [
+      97,
+      98
+    ],
+    "reference": "第97回宝钗出闺成大礼（掉包计），第98回黛玉焚稿而亡、宝玉娶宝钗。",
+    "answer": "宝玉娶宝钗的情节出现在《红楼梦》第七十回至七十四回，而林黛玉之死则在第一百二十回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.09,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 2,
+      "no_hallucination": 5,
+      "completeness": 2,
+      "comment": "回答错误，宝玉娶宝钗和黛玉之死的具体回目与参考答案不符。"
+    }
+  },
+  "27": {
+    "id": 27,
+    "category": "plot",
+    "question": "贾府被抄家（锦衣军查抄宁国府）是在哪一回？",
+    "golden_chapters": [
+      105
+    ],
+    "reference": "第105回，锦衣军查抄宁国府，贾府败落。",
+    "answer": "贾府被抄家的情节并没有出现在《红楼梦》中，书中描述的是宁国府被抄家，发生在第七十回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.06,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，未准确指出贾府被抄家的情节。"
+    }
+  },
+  "28": {
+    "id": 28,
+    "category": "plot",
+    "question": "贾母去世是在哪一回？",
+    "golden_chapters": [
+      110
+    ],
+    "reference": "第110回，史太君寿终归地府。",
+    "answer": "贾母去世的情节并未出现在《红楼梦》的任何一回中，书中并未描写贾母的去世场景。贾母是贯穿全书的重要人物，直至书末也没有她的死亡情节。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.33,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 2,
+      "comment": "回答未准确指出贾母去世的具体回目，且补充内容与问题无关。"
+    }
+  },
+  "29": {
+    "id": 29,
+    "category": "plot",
+    "question": "鸳鸯殉主是在哪一回？",
+    "golden_chapters": [
+      111
+    ],
+    "reference": "第111回，贾母死后鸳鸯上吊殉主。",
+    "answer": "鸳鸯殉主发生在第七十四回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.69,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节与原著不符。"
+    }
+  },
+  "30": {
+    "id": 30,
+    "category": "plot",
+    "question": "宝玉中举后出家是在哪一回？",
+    "golden_chapters": [
+      119
+    ],
+    "reference": "第119回，宝玉中乡魁后悬崖撒手，出家为僧。",
+    "answer": "宝玉中举后出家的情节并未出现在《红楼梦》原著中，因此没有具体的回目。这一情节是后人续作《后红楼梦》或称《续红楼梦》的内容。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.3,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 2,
+      "comment": "回答指出宝玉中举后出家的情节并非原著内容，但未明确指出是在哪一续作中，且未提及原著中的情节。"
+    }
+  },
+  "31": {
+    "id": 31,
+    "category": "plot",
+    "question": "通灵宝玉丢失是在哪一回？",
+    "golden_chapters": [
+      94
+    ],
+    "reference": "第94回，大观园海棠忽开异象，宝玉丢失通灵宝玉。",
+    "answer": "通灵宝玉在《红楼梦》中并没有明确丢失的情节。宝玉佩戴的通灵宝玉是小说中一个非常重要的象征物，但并未出现宝玉丢失的情节。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.22,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答未准确指出通灵宝玉丢失的情节，且未提及第94回的情节。"
+    }
+  },
+  "32": {
+    "id": 32,
+    "category": "plot",
+    "question": "元妃薨逝是在哪一回？",
+    "golden_chapters": [
+      95
+    ],
+    "reference": "第95回，元妃因宝玉失玉惊吓成病而薨逝。",
+    "answer": "元妃薨逝在《红楼梦》第七十四回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.77,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节与参考答案不符。"
+    }
+  },
+  "33": {
+    "id": 33,
+    "category": "plot",
+    "question": "宝黛共读《西厢记》是在哪一回？",
+    "golden_chapters": [
+      23
+    ],
+    "reference": "第23回，宝玉黛玉在沁芳闸共读《会真记》（西厢记），互生情愫。",
+    "answer": "宝黛共读《西厢记》发生在第四十回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.77,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节不在第四十回。"
+    }
+  },
+  "34": {
+    "id": 34,
+    "category": "plot",
+    "question": "史湘云醉眠芍药裀是在哪一回？",
+    "golden_chapters": [
+      62
+    ],
+    "reference": "第62回，史湘云酒后醉卧芍药丛，娇憨可爱。",
+    "answer": "史湘云醉眠芍药裀的情节出现在《红楼梦》第三十七回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.89,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节出现在第62回，而非第37回。"
+    }
+  },
+  "35": {
+    "id": 35,
+    "category": "plot",
+    "question": "晴雯病补雀金裘是在哪一回？",
+    "golden_chapters": [
+      52
+    ],
+    "reference": "第52回，晴雯带病为宝玉补雀金裘，技艺高超。",
+    "answer": "晴雯病补雀金裘的情节在《红楼梦》第27回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.91,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节不在第27回。"
+    }
+  },
+  "36": {
+    "id": 36,
+    "category": "relation",
+    "question": "香菱（英莲）最终成了谁的妾？",
+    "golden_chapters": [
+      4,
+      80
+    ],
+    "reference": "香菱即甄英莲，被薛蟠强买为妾；第80回受夏金桂虐待。",
+    "answer": "香菱最终成了贾雨村的妾。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.68,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答完全错误，香菱并未成为贾雨村的妾。"
+    }
+  },
+  "37": {
+    "id": 37,
+    "category": "relation",
+    "question": "探春的生母是谁？",
+    "golden_chapters": [
+      55
+    ],
+    "reference": "探春是贾政与赵姨娘之女，庶出；第55回赵姨娘为其弟求利惹事。",
+    "answer": "探春的生母是赵姨娘。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.71,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 5,
+      "comment": "回答准确，无偏离，且完全符合问题要求。"
+    }
+  },
+  "38": {
+    "id": 38,
+    "category": "relation",
+    "question": "贾宝玉和林黛玉是什么亲属关系？",
+    "golden_chapters": [
+      2,
+      3
+    ],
+    "reference": "姑表兄妹：宝玉父贾政，黛玉母贾敏，贾敏是贾政之妹；第3回黛玉进府。",
+    "answer": "贾宝玉和林黛玉是表兄妹关系。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.74,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 4,
+      "no_hallucination": 5,
+      "completeness": 4,
+      "comment": "回答正确指出了表兄妹关系，但未详细说明具体亲属关系。"
+    }
+  },
+  "39": {
+    "id": 39,
+    "category": "relation",
+    "question": "王熙凤和贾琏是什么关系？",
+    "golden_chapters": [
+      2,
+      6
+    ],
+    "reference": "夫妻，贾琏为荣国府管家公子，王熙凤为正妻并实际掌家。",
+    "answer": "王熙凤和贾琏是夫妻关系。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.69,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 3,
+      "no_hallucination": 5,
+      "completeness": 3,
+      "comment": "回答缺少了王熙凤为正妻并实际掌家的信息。"
+    }
+  },
+  "40": {
+    "id": 40,
+    "category": "relation",
+    "question": "薛宝钗和薛蟠是什么关系？",
+    "golden_chapters": [
+      4
+    ],
+    "reference": "兄妹，薛宝钗为妹，薛蟠为兄（呆霸王）。",
+    "answer": "薛宝钗和薛蟠是兄妹关系。薛蟠是薛宝钗的哥哥。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.88,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 5,
+      "comment": "回答准确无误，完全符合参考答案要点，且没有遗漏重要信息。"
+    }
+  },
+  "41": {
+    "id": 41,
+    "category": "relation",
+    "question": "贾母和贾政是什么关系？",
+    "golden_chapters": [
+      2
+    ],
+    "reference": "母子，贾母是贾政的母亲，荣国府最高长辈。",
+    "answer": "贾母是贾政的母亲。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.65,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 4,
+      "comment": "回答准确，但可以更贴合参考答案要点，补充‘贾母是荣国府最高长辈’"
+    }
+  },
+  "42": {
+    "id": 42,
+    "category": "relation",
+    "question": "林黛玉的母亲是谁？",
+    "golden_chapters": [
+      2,
+      3
+    ],
+    "reference": "贾敏，贾母之女，嫁林如海为妻，生黛玉；第2回冷子兴演说提及。",
+    "answer": "林黛玉的母亲是贾敏。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.69,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 5,
+      "comment": "回答准确无误，完全符合参考答案要点"
+    }
+  },
+  "43": {
+    "id": 43,
+    "category": "relation",
+    "question": "史湘云和贾母是什么关系？",
+    "golden_chapters": [
+      2
+    ],
+    "reference": "史湘云是贾母娘家史家的侄孙女（贾母的侄孙女），常来贾府居住。",
+    "answer": "史湘云是贾母的侄孙女。她的父亲史鼎是贾母的妹妹贾珠之妻的兄弟，因此史湘云与贾家有姻亲关系，常在贾府中居住。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.5,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 4,
+      "no_hallucination": 5,
+      "completeness": 4,
+      "comment": "回答基本准确，但未完全按照参考答案要点来描述。"
+    }
+  },
+  "44": {
+    "id": 44,
+    "category": "relation",
+    "question": "妙玉是什么身份？",
+    "golden_chapters": [
+      5,
+      41
+    ],
+    "reference": "带发修行的尼姑，住栊翠庵；出身仕宦，才华横溢，性情孤洁；第41回栊翠庵品茶。",
+    "answer": "妙玉是《红楼梦》中大观园的女道士，身份特殊，既是修行之人，又与贾家有交情，常来贾府品茶、聊天。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 1.27,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 3,
+      "no_hallucination": 5,
+      "completeness": 3,
+      "comment": "回答将妙玉的身份描述为女道士，与原著不符，应为尼姑。"
+    }
+  },
+  "45": {
+    "id": 45,
+    "category": "poetry",
+    "question": "判词“可叹停机德，堪怜咏絮才”分别指谁？",
+    "golden_chapters": [
+      5
+    ],
+    "reference": "“停机德”指薛宝钗（德行之妇），“咏絮才”指林黛玉（谢道韫之才）；第5回判词。",
+    "answer": "“可叹停机德，堪怜咏絮才”这句判词分别指林黛玉和贾惜春。其中，“可叹停机德”指的是贾惜春，她的性格温顺、稳重，符合古代社会对女性的美德要求；“堪怜咏絮才”指的是林黛玉，她才华横溢，擅长诗词，有如晋代才女谢道韫咏絮之才。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 4.08,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 2,
+      "no_hallucination": 5,
+      "completeness": 2,
+      "comment": "回答错误，将贾惜春误认为薛宝钗。"
+    }
+  },
+  "46": {
+    "id": 46,
+    "category": "poetry",
+    "question": "《葬花吟》是谁所作？",
+    "golden_chapters": [
+      27
+    ],
+    "reference": "林黛玉所作，第27回葬花时吟出，感叹身世飘零。",
+    "answer": "《葬花吟》是林黛玉所作。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.73,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 3,
+      "comment": "回答正确，但缺少具体的情节背景。"
+    }
+  },
+  "47": {
+    "id": 47,
+    "category": "poetry",
+    "question": "《枉凝眉》这支仙曲写的是哪两人？",
+    "golden_chapters": [
+      5
+    ],
+    "reference": "写宝黛爱情悲剧，第5回太虚幻境十二支之一。",
+    "answer": "《枉凝眉》这支仙曲写的是贾宝玉和林黛玉。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.8,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 5,
+      "no_hallucination": 5,
+      "completeness": 5,
+      "comment": "回答准确无误，完全符合参考答案要点"
+    }
+  },
+  "48": {
+    "id": 48,
+    "category": "plot",
+    "question": "宝玉题写“沁芳”“有凤来仪”等匾额是在哪一回？",
+    "golden_chapters": [
+      17
+    ],
+    "reference": "第17回大观园试才题对额，宝玉题“沁芳”“有凤来仪”等。",
+    "answer": "宝玉题写“沁芳”“有凤来仪”等匾额是在第四十回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.92,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节不在第四十回。"
+    }
+  },
+  "49": {
+    "id": 49,
+    "category": "plot",
+    "question": "凤姐设相思局害死贾瑞是在哪一回？",
+    "golden_chapters": [
+      12
+    ],
+    "reference": "第12回，王熙凤毒设相思局，贾瑞照风月宝鉴正面而死。",
+    "answer": "凤姐设相思局害死贾瑞的情节在《红楼梦》第二十回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.87,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节不在第二十回。"
+    }
+  },
+  "50": {
+    "id": 50,
+    "category": "plot",
+    "question": "尤二姐吞金自逝是在哪一回？",
+    "golden_chapters": [
+      69
+    ],
+    "reference": "第69回，尤二姐被王熙凤设计迫害，吞金自尽。",
+    "answer": "尤二姐吞金自逝发生在《红楼梦》第四十六回。",
+    "retrieved_chapters": [],
+    "sources": "",
+    "gen_time": 0.81,
+    "retrieval_time": 0.0,
+    "judge": {
+      "factual_accuracy": 1,
+      "no_hallucination": 5,
+      "completeness": 1,
+      "comment": "回答错误，情节与原著不符。"
+    }
+  }
+}
