@@ -53,3 +53,12 @@ lora_train/LLaMA-Factory/
 
 # Temporary download script
 download_sft.py
+
+# SSH credentials (contains passwords - NEVER commit)
+ssh_exec.py
+*.pem
+id_ed25519*
+
+# Duplicate generated images in prompts dir (final versions in report/)
+visualize/comfyui_api/prompts/*.png
+

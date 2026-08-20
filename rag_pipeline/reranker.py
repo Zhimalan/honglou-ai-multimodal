@@ -15,15 +15,17 @@ class BGEReranker:
         self,
         model_name: str = "BAAI/bge-reranker-base",
         cache_dir: str = None,
+        device: str = "cpu",
     ):
         if cache_dir is None:
             cache_dir = os.path.join(os.path.dirname(__file__), "..", "models")
 
-        print(f"[Reranker] 正在加载重排序模型: {model_name} ...")
+        print(f"[Reranker] 正在加载重排序模型: {model_name} (device={device}) ...")
         self.reranker = CrossEncoder(
             model_name,
             max_length=512,
             cache_dir=cache_dir,
+            device=device,
         )
         print(f"[Reranker] 模型加载完成")
 

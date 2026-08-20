@@ -63,7 +63,39 @@
       }
     }
   },
-  "generated_at": "2026-08-19 09:24:24",
+  "generated_at": "2026-08-20 11:31:55",
   "test_set_size": 50,
-  "note": "方案C（微调+RAG+GraphRAG+Agent）待阶段4完成后补充。"
+  "note": "方案C: Qwen2.5-7B-Instruct + LoRA微调 + RAG(BGE+BM25+RRF, 无Reranker). 通过SSH隧道连接AutoDL API.",
+  "C": {
+    "count": 50,
+    "recall_at_5": 0.68,
+    "precision_at_5": 0.203,
+    "factual_accuracy": 2.62,
+    "no_hallucination": 4.22,
+    "completeness": 2.42,
+    "hallucination_rate": 0.16,
+    "by_category": {
+      "plot": {
+        "count": 38,
+        "factual_accuracy": 2.3421052631578947,
+        "no_hallucination": 3.973684210526316,
+        "completeness": 2.210526315789474,
+        "hallucination_rate": 0.21052631578947367
+      },
+      "relation": {
+        "count": 9,
+        "factual_accuracy": 3.4444444444444446,
+        "no_hallucination": 5.0,
+        "completeness": 3.0,
+        "hallucination_rate": 0.0
+      },
+      "poetry": {
+        "count": 3,
+        "factual_accuracy": 3.6666666666666665,
+        "no_hallucination": 5.0,
+        "completeness": 3.3333333333333335,
+        "hallucination_rate": 0.0
+      }
+    }
+  }
 }

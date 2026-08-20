@@ -1,20 +1,16 @@
 {
   "honglou_qa_train": {
     "file_name": "honglou_qa_train.json",
-    "formatting": "alpaca",
+    "formatting": "sharegpt",
     "columns": {
-      "instruction": "instruction",
-      "input": "input",
-      "output": "output"
+      "messages": "conversations"
     }
   },
   "honglou_qa_val": {
     "file_name": "honglou_qa_val.json",
-    "formatting": "alpaca",
+    "formatting": "sharegpt",
     "columns": {
-      "instruction": "instruction",
-      "input": "input",
-      "output": "output"
+      "messages": "conversations"
     }
   }
 }

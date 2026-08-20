@@ -111,23 +111,24 @@ def build_positive_prompt(character: str, relations: list[dict]) -> str:
     rel_text = "，".join(rel_descs)
 
     prompt = (
-        f"中国传统水墨画风格，红楼梦人物关系图，{char_list}，"
+        f"gufeng style, "  # 国风 LoRA 触发词
+        f"1girl, solo, single character, "  # 强制单人物（防多人）
+        f"中国传统水墨画风格，红楼梦人物图，{character}，"
         f"水墨晕染，工笔人物，古典园林背景，"
-        f"中心人物{character}居中，周围环绕{rel_text}，"
-        f"人物之间用纤细墨线连接表示关系，"
-        f"红色线条表示夫妻关系，蓝色线条表示亲子关系，绿色线条表示主仆关系，"
-        f"人物名称用楷体标注，文字清晰可读，"
-        f"整体色调淡雅，宣纸质感，中国传统绘画风格，"
+        f"中心人物{character}居中特写，{character}的服饰是{rel_text}相关人物风格，"
+        f"周围留白，人物面部精致，眉如墨画，"
+        f"整体色调淡雅，宣纸质感，中国传统仕女图风格，"
         f"高质量，细节丰富，构图均衡，8k分辨率"
     )
     return prompt
 
 
 def build_negative_prompt() -> str:
-    """构建反向提示词"""
+    """构建反向提示词（防多人物 / 西方元素 / 二次元化）"""
     return (
+        "multiple girls, multiple people, crowd, group, twins, duplicated, "
         "模糊, 扭曲, 文字重叠, 文字不清晰, 低质量, 伪影, "
-        "变形, 多余手指, 西方风格, 现代元素, 卡通风格, "
+        "变形, 多余手指, 西方风格, 现代元素, 卡通风格, 日漫, "
         "3D渲染, 油画风格, 色彩过于鲜艳, 构图混乱, "
         "人物面部模糊, 身体比例失调, 背景杂乱"
     )
@@ -150,28 +151,41 @@ def build_controlnet_prompt(character: str) -> str:
 def build_workflow(
     positive_prompt: str,
     negative_prompt: str,
-    model_name: str = "v1-5-pruned-emaonly.safetensors",
-    width: int = 1024,
-    height: int = 768,
-    steps: int = 30,
-    cfg_scale: float = 7.5,
-    sampler: str = "DPM++ 2M Karras",
+    model_name: str = "anything-v5-PrtRE.safetensors",
+    width: int = 768,
+    height: int = 512,
+    steps: int = 25,
+    cfg_scale: float = 7,
+    sampler: str = "dpmpp_2m",
+    scheduler: str = "karras",
+    seed: int = None,
+    lora_name: str = "chinese_style_lora_v1.0.safetensors",
+    lora_strength: float = 0.8,
+    use_lora: bool = True,
 ) -> dict:
     """
     构建 ComfyUI 工作流 JSON（文生图基础工作流）。
-    实际使用时需根据 ComfyUI 中安装的节点进行调整。
+    模型: Anything V5 (SD1.5, 动漫/插画风) + 国风 LoRA。
+    SD1.5 分辨率应控制在 768x512 以内，避免显存溢出。
+    sampler/scheduler 用 ComfyUI 原生命名（如 dpmpp_2m + karras）。
+    lora_name: 国风 LoRA 文件名；use_lora=False 时不加载。
     """
+    if seed is None:
+        seed = int(time.time()) % (2**32)
+    # 关键节点 id 决定连接方向
+    clip_source = "10" if use_lora else "4"  # LoraLoader 或 CheckpointLoader
+    model_source = "10" if use_lora else "4"
     workflow = {
         "3": {
             "class_type": "KSampler",
             "inputs": {
-                "seed": int(time.time()) % (2**32),
+                "seed": seed,
                 "steps": steps,
                 "cfg": cfg_scale,
                 "sampler_name": sampler,
-                "scheduler": "karras",
+                "scheduler": scheduler,
                 "denoise": 1.0,
-                "model": ["4", 0],
+                "model": [model_source, 0],
                 "positive": ["6", 0],
                 "negative": ["7", 0],
                 "latent_image": ["5", 0],
@@ -187,11 +201,11 @@ def build_workflow(
         },
         "6": {
             "class_type": "CLIPTextEncode",
-            "inputs": {"text": positive_prompt, "clip": ["4", 1]},
+            "inputs": {"text": positive_prompt, "clip": [clip_source, 1]},
         },
         "7": {
             "class_type": "CLIPTextEncode",
-            "inputs": {"text": negative_prompt, "clip": ["4", 1]},
+            "inputs": {"text": negative_prompt, "clip": [clip_source, 1]},
         },
         "8": {
             "class_type": "VAEDecode",
@@ -199,9 +213,20 @@ def build_workflow(
         },
         "9": {
             "class_type": "SaveImage",
-            "inputs": {"images": ["8", 0]},
+            "inputs": {"images": ["8", 0], "filename_prefix": f"honglou_guofeng"},
         },
     }
+    if use_lora:
+        workflow["10"] = {
+            "class_type": "LoraLoader",
+            "inputs": {
+                "model": ["4", 0],
+                "clip": ["4", 1],
+                "lora_name": lora_name,
+                "strength_model": lora_strength,
+                "strength_clip": lora_strength,
+            },
+        }
     return workflow
 
 
@@ -311,12 +336,12 @@ def _save_prompt(character, positive, negative, output_dir, result):
         "positive_prompt": positive,
         "negative_prompt": negative,
         "controlnet_prompt": build_controlnet_prompt(character),
-        "recommended_model": "国风/水墨风格 LoRA 模型，如 guofeng_v2.safetensors",
+        "recommended_model": "Anything V5 (SD1.5 动漫/插画风)，可换国风水墨 LoRA",
         "recommended_params": {
-            "width": 1024,
-            "height": 768,
-            "steps": 30,
-            "cfg_scale": 7.5,
+            "width": 768,
+            "height": 512,
+            "steps": 25,
+            "cfg_scale": 7,
             "sampler": "DPM++ 2M Karras",
         },
     }

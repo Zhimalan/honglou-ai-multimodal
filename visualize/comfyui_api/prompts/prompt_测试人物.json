@@ -1,0 +1,14 @@
+{
+  "character": "测试人物",
+  "positive_prompt": "gufeng style, 1girl, solo, single character, 中国传统水墨画风格，红楼梦人物图，测试人物，水墨晕染，工笔人物，古典园林背景，中心人物测试人物居中特写，测试人物的服饰是关系1(其他)相关人物风格，周围留白，人物面部精致，眉如墨画，整体色调淡雅，宣纸质感，中国传统仕女图风格，高质量，细节丰富，构图均衡，8k分辨率",
+  "negative_prompt": "multiple girls, multiple people, crowd, group, twins, duplicated, 模糊, 扭曲, 文字重叠, 文字不清晰, 低质量, 伪影, 变形, 多余手指, 西方风格, 现代元素, 卡通风格, 日漫, 3D渲染, 油画风格, 色彩过于鲜艳, 构图混乱, 人物面部模糊, 身体比例失调, 背景杂乱",
+  "controlnet_prompt": "思维导图布局，测试人物位于中心，分支向四周展开，层级分明，每个分支节点为人物头像位置，线条简洁清晰，结构对称",
+  "recommended_model": "Anything V5 (SD1.5 动漫/插画风)，可换国风水墨 LoRA",
+  "recommended_params": {
+    "width": 768,
+    "height": 512,
+    "steps": 25,
+    "cfg_scale": 7,
+    "sampler": "DPM++ 2M Karras"
+  }
+}
