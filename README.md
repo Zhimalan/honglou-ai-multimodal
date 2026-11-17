@@ -1,4 +1,27 @@
-# 《人工智能红楼梦多模态智能解读专家系统》
+<div align="center">
+
+# 人工智能红楼梦多模态智能解读专家系统
+
+[![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)]()
+[![PyTorch](https://img.shields.io/badge/PyTorch-CUDA-EE4C2C?logo=pytorch&logoColor=white)]()
+[![Qwen](https://img.shields.io/badge/Model-Qwen2.5--7B-635BFF)]()
+[![LangGraph](https://img.shields.io/badge/Agent-LangGraph-1B7B4F)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
+
+**QLoRA 领域微调 · 多级增强 RAG · GraphRAG 知识图谱 · LangGraph 多工具 Agent**
+
+</div>
+
+## ✨ 核心亮点
+
+| 模块 | 说明 |
+|------|------|
+| 🧠 领域微调 | QLoRA 4bit 量化微调，让模型读懂红楼梦语境 |
+| 🔍 多级检索 | 向量召回 + BM25 + Reranker，答案有据可依 |
+| 🕸️ 知识图谱 | GraphRAG 抽取人物关系，自动生成可视化图谱 |
+| 🤖 智能体编排 | LangGraph 状态机调度多工具，复杂问题分步求解 |
+| 🖼️ 多模态生成 | ComfyUI 生成国风人物关系图 |
+| 🖥️ 交互界面 | Gradio 双栏对话，开箱即用 |
 
 ## 项目简介
 
